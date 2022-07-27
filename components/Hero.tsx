@@ -118,7 +118,7 @@ const Hero = () => {
         <Group className={classes.controls}>
           <Button
             component="a"
-            href="https://mantine.dev/getting-started/"
+            href="https://mantine.dev/pages/getting-started/"
             size="xl"
             className={classes.control}
             variant="gradient"
