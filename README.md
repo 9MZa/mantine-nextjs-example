@@ -1,13 +1,14 @@
-# 🚀 Mantine 5.6 is out! Here is what's new:
+# Mantine 5.8 is out!
 
-- New Rating component
-- New use-favicon hook
-- `@mantine/form` now supports fields indices reference in `validateOnChange` and `validateOnBlur`
-- `@mantine/form` now supports values transforming before they get submitted
-- Tabs now support changing placement in vertical orientation
-- Progress and RingProgress component now support adding any additional props to sections, for example you can now know when user hovered each section
-- Autocomplete, ColorInput, JsonInput and FileInput components now support `readOnly` prop
+This release introduces new `RichTextEditor` component based on Tiptap [(https://tiptap.dev/)](https://tiptap.dev/). `@mantine/tiptap` package is a replacement for `@mantine/rte` (which was built on top of Quill.js).
 
-Checkout the changelog:
-- Changelog – https://mantine.dev/changelog/5-6-0/
-- GitHub release – https://github.com/mantinedev/mantine/releases/tag/5.6.0
+New `RichTextEditor` component is much more flexible and includes more features than the previous component:
+- You fully control the state and behavior with `useEditor` hook
+- Each control is exposed as a separate component – you can now change props and styles of each control individually
+- All Tiptap extensions are supported – if something is missing, you can easily add a custom control that executes any operation
+- It is now possible to include code highlight with `lowlight` package
+- New Bubble and Floating menus to display controls
+
+Checkout all new `RichTextEditor` component features:
+- Changelog – [https://mantine.dev/changelog/5-8-0/](https://mantine.dev/changelog/5-8-0/)
+- Release on GitHub – [https://github.com/mantinedev/mantine/releases/tag/5.8.0](https://github.com/mantinedev/mantine/releases/tag/5.8.0)
