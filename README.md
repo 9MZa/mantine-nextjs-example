@@ -1,14 +1,12 @@
-# Mantine 5.8 is out!
+# Mantine 5.9 is out!
 
-This release introduces new `RichTextEditor` component based on Tiptap [(https://tiptap.dev/)](https://tiptap.dev/). `@mantine/tiptap` package is a replacement for `@mantine/rte` (which was built on top of Quill.js).
+Here is what's new:
+- New use-eye-dropper hook provides an API to work with experimental EyeDropper API (currently supported only in Chromium based browsers)
+- ColorInput component utilizes use-eye-dropper hook and offers the user an option to pick any color from the screen
+- AppShell now supports `layout="alt"` prop which allows to render Navbar/Aside on top of Header/Footer
+- All static components (`Menu.Item`, `Tabs.List`, `Accordion.Panel`, etc.) now support default props on MantineProvider
+- New `Input.Placeholder` component to use in custom inputs
 
-New `RichTextEditor` component is much more flexible and includes more features than the previous component:
-- You fully control the state and behavior with `useEditor` hook
-- Each control is exposed as a separate component – you can now change props and styles of each control individually
-- All Tiptap extensions are supported – if something is missing, you can easily add a custom control that executes any operation
-- It is now possible to include code highlight with `lowlight` package
-- New Bubble and Floating menus to display controls
-
-Checkout all new `RichTextEditor` component features:
-- Changelog – [https://mantine.dev/changelog/5-8-0/](https://mantine.dev/changelog/5-8-0/)
-- Release on GitHub – [https://github.com/mantinedev/mantine/releases/tag/5.8.0](https://github.com/mantinedev/mantine/releases/tag/5.8.0)
+Checkout all new features:
+- Changelog – [https://mantine.dev/changelog/5-9-0/](https://mantine.dev/changelog/5-9-0/)
+- GitHub release – [https://github.com/mantinedev/mantine/releases/tag/5.9.0](https://github.com/mantinedev/mantine/releases/tag/5.9.0)
